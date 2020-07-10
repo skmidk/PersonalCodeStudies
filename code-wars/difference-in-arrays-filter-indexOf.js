@@ -1,7 +1,7 @@
-var first = [ 1, 2, 3, 4];
-var second = [ 4, 5 ];
+const first = [ 1, 2, 3, 4, 5 ,6];
+const second = [ 4, 5 ];
 
-var difference = first.filter(x => second.indexOf(x) === -1);
+const difference = first.filter(x => second.indexOf(x) === -1);
 console.log(difference)
 
 //first.filter() is filtering the array first by the parameters inside filter

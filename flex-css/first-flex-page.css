@@ -1,0 +1,25 @@
+<style>
+.container-1{
+  display: flex;
+  -webkit-display: -webkit-flex;
+  flex-direction: row;
+  justify: center;
+}
+
+.container-1 div{
+  border:1px #ccc solid;
+  padding: 10px;
+}
+
+.box-1{
+  align-content: flex-end;
+}
+
+.box-2{
+  align-content: flex-start;
+}
+
+.box-3{
+  align-content: flex-start;
+}
+</style>

@@ -1,0 +1,16 @@
+
+ function order(words){
+     return words.split(' ').sort(function(a,b){
+     return a.match(/\d/) - b.match(/\d/);
+   }).join(' ');
+ }
+
+
+
+//how sort works.
+// var array=[25, 8, 7, 41]
+//
+// array.sort(function(a,b){
+//   console.log(`a = ${a} , b = ${b}`);
+//   return a - b
+// });
